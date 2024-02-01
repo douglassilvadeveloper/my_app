@@ -1,7 +1,7 @@
 defmodule MyApp do
 
   # Generics Operations
-  alias MyApp.Generics.{Change, Create, Delete, EmptyInstance, List, Show, Update, }
+  alias MyApp.Generics.{Change, Create, Delete, EmptyInstance, List, Show, Update}
 
   # Operations
   defdelegate build_empty_instance(schema_name), to: EmptyInstance, as: :call
